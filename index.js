@@ -7,12 +7,6 @@ const port=80
 app.use('/',require('./routes'))
 
 
-
-
-
-
-
-
 app.listen(port,(err)=>{
     if(err){
         console.log(`error in running the server${port}`)
